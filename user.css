@@ -1,0 +1,77 @@
+body{
+    height: 100vh;
+    background-color: white;
+}
+
+h1{
+    color:rgb(130, 1, 1);
+    font-style: oblique;
+    font-size: 50px;
+}
+.home a{
+    color:rgb(130, 1, 1);
+    font-style: oblique;
+    font-size: 50px;
+    text-decoration: none;
+}
+.head{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    background-color: #a20a0a;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.head img{
+    width: 80px;
+    height:80px;
+    background-color: rgb(37, 131, 0);
+    border-radius: 100px;
+    margin: 8px;
+}
+
+.head button{
+    width: 120px;
+    height: 40px;
+    background: #de7a17;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.profile{
+    display:flex ;
+    align-items: center;
+    color: #fff;
+    font-size:large;
+}
+
+.options{
+    width: 55vh;
+    height: 60vh;
+    box-shadow: 0 6px 15px rgba(255, 0, 0, 0.18);
+    padding-bottom:90px;
+    margin-top: 4px;
+    margin: 2px;
+}
+.options h3{
+    font-style: oblique;
+    margin: 5px;
+    color: #ca4444;
+}
+.options h4{
+    margin: 20px;
+    cursor: pointer;
+}
+.options button{
+    width: 100px;
+    border-radius: 5px;
+    color: black;
+    background-color: #ca4444;
+    font-size: 15px;
+    cursor: pointer;
+}

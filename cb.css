@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    background-color: white;
+}
+
+h1{
+    color:wheat;
+    font-style: oblique;
+    font-size: 50px;
+}
+
+.head{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-image:url(bg\ wallpaper.jpg);
+}
+
+.status{
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    margin-left: 100vh;
+    justify-content: space-around;
+}
+
+.status li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.status li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.status li a:hover,
+.status li a.active{
+    color: darkorange;
+}
+
+.status img{
+    width: 40px;
+    height:40px;
+    background-color: rgb(37, 131, 0);
+    border-radius: 100px;
+    cursor: pointer;
+}
